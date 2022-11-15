@@ -9,12 +9,28 @@
 <body>
     <main>
         <section>
+            <!-- esta es otra interaccion que se puede agregar para seleccionar alguna opcion -->
+            <!-- esta opcion no es recomendada -->
             <select name="cursos" id="">
-                <option value="">JavaScript</option>
-                <option value="">HTML5</option>
-                <option value="">CCS3</option>
-                <option value="">Web Standards</option>
+                <!-- esta etiqueta se agregan las diferentes opciones del selector -->
+                <!-- en el atributo value se pone el valor del selector por que con esto  nos aseguramos de agregar y registrar en la base de datos. Si este fuera vacio no se registraria o enviaria nada -->
+                <option value="JavaScript">JavaScript</option>
+                <option value="HTML5">HTML5</option>
+                <option value="CCS3">CCS3</option>
+                <option value="Web Standards">Web Standards</option>
             </select>
+        </section>
+
+        <section>
+            <!-- esta es la forma correcta de crear un selector ya que aqui se puede agregar un contenido donde se pueda buscar escribiendo en el input -->
+            <input list="cursos">
+            <!-- esta etiqueta crea la lista de opciones -->
+            <datalist id="cursos">
+                <option value="JavaScript"></option>
+                <option value="HTML5"></option>
+                <option value="CSS3"></option>
+                <option value="Web Standar"></option>
+            </datalist>
         </section>
     </main>
 </body>
