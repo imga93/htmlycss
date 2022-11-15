@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
+    <!-- Primera forma de crear un formulario de calendario -->
     <section>
         <form action="">
             <label for="hora">
@@ -15,7 +16,7 @@
             </label>
             <label for="dia">
                 <span>Día</span>
-                <input type="day"   id="dia" name="dia">
+                <input type="date"   id="dia" name="dia">
             </label>
             <label for="semana">
                 <span>Semana</span>
@@ -24,6 +25,16 @@
             <label for="mes">
                 <span>Mes</span>
                 <input type="month" id="mes" name="mes">
+            </label>
+            <!-- este input es el que se usa para enviar al servidor  -->
+            <input type="submit">
+        </form>
+    </section>
+    <section>
+        <form action="">
+            <label for="Calendario">
+                <span>Calendario</span>
+                <input type="datetime-local" id="Calendario" name="Calendario">
             </label>
             <input type="submit">
         </form>
