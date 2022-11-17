@@ -1,0 +1,17 @@
+/* etiqueta o elemento */
+p{
+    color: red;
+}
+h1{
+    color: red;
+}
+
+/* class */
+.p2{
+    color:blue
+}
+
+/* ID */
+#n3{
+    color:blueviolet;
+}
