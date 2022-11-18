@@ -5,4 +5,5 @@
 .items-del-pedido{
     
     display: flex;
+    justify-content: center;
 }
