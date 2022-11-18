@@ -1,0 +1,18 @@
+/* este selector se le conose como el selector universal y esta declaracion nos permite recetear 
+los valores que el navegador pone por defecto es una muy buena practica usarlo */
+* {
+    padding: 0;
+    margin: 0;
+    /* esta declaracion en particular hace que el margin y 
+    padding se sumen y no se salgan del navegador */
+    box-sizing: border-box;
+}
+
+main{
+    width: 100%;
+    height: 500px;
+    border: 10px solid grey;
+    /* aqui el primer numero es para arriba y abajo
+    y el segundo derecha isquierda  */
+    padding: 20px 35px;
+}
