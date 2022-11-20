@@ -19,7 +19,9 @@
 }
 .item ol li{
     margin: 10px;
-    padding: 10px;
+    padding-top: 8px;
+    padding-left: 2px;
+    padding-right: 2px;
     list-style: none;
     background-color: aqua;
     border-radius: 4px;
@@ -32,7 +34,9 @@
     text-decoration: none;
 }
 .item img{
-    border: 16px;
+    border-radius: 4px;
     width: 160px;
+    height: 160px;
 }
+
 
