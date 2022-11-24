@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+main{
+    /* este vw o viewport hace el numero siempre este refenciando
+    a la ventana del navegador y tratando al numero como % a mostrar */
+    width: 100vw;
+    height: 100vw;
+    background-color: red;
+}
+section{
+    width: 80%;
+    /* max y min limitan el espacio hasta donde puede crecer o incojerse */
+    min-width: 320px;
+    max-width: 500px;
+    /* esto hace que el section cresca con el contenido 
+     y se achique solo hasta que un minimo de 500px */
+    min-height: 500px;
+    background-color: yellow;
+    /* esto esta haciendo que el margen de arriba y abajo sea 0 y el de los costados 
+    se calcule de forma automatica */
+    margin: 0 auto;
+}
+p{
+    font-size: 2.5rem;
+}
