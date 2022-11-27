@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.main-content{
+    width: 100vw;
+    height: 100vw;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    font-size: 2.5rem;
+    text-align: center;
+    border: 2px black solid;   
+    width: 30rem;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    position: relative;
+    top: 2rem;
+    background-color: aquamarine;
+}
+.card article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px black solid;
+    width: 600px;
+    border-radius: 1rem;
+    justify-content: center;
+    width: 415px;
+}
+
+.card p{
+    font-size: 1.6rem;
+    width: 40%;
+    padding: 1rem;
+    margin: 2rem;
+    margin-top: 3rem;
+}
+
+.card img{
+    width: 150px;
+    margin-top: 3rem;
+}
+
+
+
