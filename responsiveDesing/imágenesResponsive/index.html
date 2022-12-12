@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="robots" content="index,follow ">
+    <meta name="description" content= "Imagen Responsive">
+    <link rel="stylesheet" href="style.css">
+    <title>Imagen Responsive</title>
+</head>
+<body>
+    <main>
+        <!-- Esta etiqueta permite que el performance mejore y mucho ya que con la propiedad 
+        source da la facilidad para que el navegador carge la imagen mas optima para el width del 
+    dispositivo -->
+        <picture class="picture">
+            <!-- es importante que en esta parte siempre el mediaquery mas grande siempre este arriba 
+            del todo  -->
+            <source media="(min-width:1300px" srcset="./assets/large.jpg">  <!--↑↑-->
+            <source media="(min-width:1000px" srcset="./assets/midium.jpg">
+            <img src="./assets/small.jpg" alt="es una imagen de pagarito">
+        </picture>  
+    </main>
+</body>
+</html>
